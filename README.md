@@ -1,10 +1,14 @@
 This repository contains contracts that I'm coding, whether for fun or otherwise.
 
 ---
+DISCLAIMER: I am currently in the learning process of using Solidity. You are welcome to suggest improvements and are advised to test the code on your own before using it.
+---
 
 **AInime Folder**
 
 This directory holds the smart contract for the AInime collection. For more information about the project, visit https://www.ainime.xyz/.
+
+It supports a multi-phase minting process and implements a minting limit per wallet/transaction. While the whitelist could be enhanced using Merkle Trees, I admittedly took a shortcut here :)
 
 **Experimentations Folder**
 
